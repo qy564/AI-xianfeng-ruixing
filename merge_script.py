@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import re
 import os
 from docx import Document
@@ -18,6 +19,11 @@ file_order = [
     "05_技术架构详图.md",
     "06_研究笔记.md",
     "07_Agent对话实录模拟.md",
+    "08_飞书生态集成方案.md",
+    "09_数据飞轮闭环设计.md",
+    "10_隐私合规专项方案.md",
+    "11_分阶段落地路线图.md",
+    "12_竞品深度对比分析.md",
 ]
 
 doc = Document()
@@ -236,3 +242,5 @@ for filename in file_order:
 
 doc.save(output_path)
 print("Done: " + output_path)
+
+
